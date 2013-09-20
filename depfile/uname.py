@@ -10,15 +10,16 @@ options:
     -r      print the operating system release.
     -s      print the operating system name.
     -v      print the operating system version.
-
-short description: List system information.
 """
+
 from docopt import docopt
 from subprocess import call
 import sys
 
 
-def exe(argv):
+def run(argv):
+    """Print system information."""
+
     args = docopt(__doc__, argv)
 
     # Trivial example:
