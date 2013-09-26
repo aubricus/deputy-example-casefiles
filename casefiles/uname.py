@@ -14,8 +14,6 @@ options:
 
 from docopt import docopt
 from subprocess import call
-import sys
-
 
 def run(argv):
     """Print system information."""
@@ -28,6 +26,6 @@ def run(argv):
     # If: -x is set do custom action.
     # Else: pass argv through.
     if args['-x']:
-        sys.exit(call(['uname', '-nmsp']))
+        call(['uname', '-nmsp'])
     else:
-        sys.exit(call(argv))
+        call(argv)
