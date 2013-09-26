@@ -1,3 +1,3 @@
-# Deputy Example
+# Deputy Example Casefiles
 
-Trivial example for creating a command using [Deputy](https://github.com/aubricus/deputy).
+Trivial example for creating casefiles for [Deputy](https://github.com/aubricus/deputy).
